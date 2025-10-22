@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwfhebxauu1mx"]
+
+[ext_resource type="Script" uid="uid://d3oxegww4vcyt" path="res://base/ui/engineering_ui.gd" id="1_j1tj0"]
+
+[node name="EngineeringUi" type="Node3D"]
+script = ExtResource("1_j1tj0")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://n7n7jb8kbhpc"]
+
+[ext_resource type="Script" uid="uid://dchxc6carry2x" path="res://base/ui/hangar_ui.gd" id="1_57fyf"]
+
+[node name="HangarUi" type="Node3D"]
+script = ExtResource("1_57fyf")
