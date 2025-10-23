@@ -5,9 +5,9 @@
 [node name="Level" type="Node3D"]
 script = ExtResource("1_awt3i")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="HeadsUpDisplay" type="CanvasLayer" parent="."]
 
-[node name="Label" type="Label" parent="CanvasLayer"]
+[node name="Label" type="Label" parent="HeadsUpDisplay"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -20,3 +20,15 @@ offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
 text = "Game"
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="Terrain" type="Node3D" parent="."]
+
+[node name="WaveManager" type="Node3D" parent="."]
+
+[node name="PlayerSpawn" type="Node3D" parent="."]
+
+[node name="BulletsParent" type="Node3D" parent="."]
+
+[node name="EnemyParent" type="Node3D" parent="."]

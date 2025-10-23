@@ -19,3 +19,4 @@ config/icon="res://icon.svg"
 
 GameManager="*res://system/game_manager.gd"
 DebugManager="*res://system/debug_manager.gd"
+PlayerData="*res://system/player_data.gd"
