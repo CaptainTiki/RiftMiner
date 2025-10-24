@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" uid="uid://dq3enr2s83w4m" path="res://gameplay/components/armor_component.gd" id="1_3lyrk"]
 
-[node name="Armor" type="Node3D"]
+[node name="Armor" type="Node"]
 script = ExtResource("1_3lyrk")

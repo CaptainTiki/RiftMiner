@@ -4,3 +4,5 @@
 
 [node name="Weapon" type="Node3D"]
 script = ExtResource("1_iyslv")
+
+[node name="Muzzle" type="Node3D" parent="."]
